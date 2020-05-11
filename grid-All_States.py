@@ -1327,7 +1327,7 @@ for g in range (len(ds_mpstate1)):
         ax.add_feature(cfeature.LAKES)
 
 
-        cf = ax.contourf(lons, lats, v_warn[FH], range(0, 7, 1),  colors=['#FFFFFF','#CFCFCF','#b8b8b8','#646464','#3D3D3D',#000000'], transform=datacrs)
+        cf = ax.contourf(lons, lats, v_warn[FH], range(0, 7, 1),  colors=['#FFFFFF','#CFCFCF','#b8b8b8','#646464','#3D3D3D','#000000'], transform=datacrs)
         cbar = plt.colorbar(cf, orientation='horizontal', aspect=50, pad=0, label = 'Visibility threat index')
 
 
